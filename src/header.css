@@ -1,0 +1,37 @@
+/**
+ * @Author Donnchao
+ * @Date 2019-04-12
+ * @Last Modified by: Rosen
+ * @Last Modified time: 2019-04-29 16:37:40
+ */
+ .tt-header {
+   position: fixed;
+   box-sizing: border-box;
+   width: 100%;
+   max-width: 640px;
+   height: 2.3rem;
+   top: 0;
+   z-index: 200;
+   border-bottom: 1px solid #ddd;
+
+   display: flex;
+   line-height: 2.3rem;
+   text-align: center;
+   background: #f8f8f8;
+ }
+
+ .tt-header > .left {
+   flex: 0 0 3rem;
+   text-align: center;
+ }
+
+ .tt-header > .right {
+   flex: 0 0 3rem;
+}
+
+.tt-header > .title {
+  flex-grow: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

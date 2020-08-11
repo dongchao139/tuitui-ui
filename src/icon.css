@@ -1,0 +1,6 @@
+@import './font-awesome-4.7.0/css/font-awesome.css';
+
+.fa {
+    display: inline-block;
+    text-align: center;
+}
